@@ -1,0 +1,47 @@
+.row {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 0 1rem;
+    flex-direction: row;
+}
+
+.row + .row {
+    border-bottom: 1px solid #ccc;
+}
+
+.post-content {
+    width: 70% !important;
+    margin-right: 1rem;
+}
+
+.post-image {
+    width: calc(30% - 1rem) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.post-title {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: lightskyblue;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.post-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

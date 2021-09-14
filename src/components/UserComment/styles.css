@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.comment-image {
+    width: 20%;
+}
+
+.comment-content {
+    width: 60%;
+}
+
+.comment-time {
+    width: 20%;
+}
